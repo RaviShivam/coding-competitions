@@ -23,7 +23,6 @@ def run_test():
             for m in moves:
                 current = (1+(lst[0]+m[0]-1)%r, 1+(lst[1]+m[1]-1)%c)
                 if current not in visited and valid_move(lst, current):
-                    # print(current, m)
                     visited.add(current)
                     fnd = True
                     break
