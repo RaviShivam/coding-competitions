@@ -9,7 +9,7 @@ def run_test():
 
     if len(stones) > 50:
         return run_long(stones)
-        
+
     m = -1
     for eatstones in permutations(stones):
         currtime = 0
